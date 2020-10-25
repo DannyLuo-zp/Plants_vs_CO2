@@ -107,7 +107,6 @@ class Grid extends React.Component {
 }
 
 
-
 function option(e, south, east){
   let ans = {
       north: south + areaSize.height,
@@ -121,7 +120,7 @@ function option(e, south, east){
 export function EcoMap() {
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyBnQLtnVmmFchhoVNletHvubUqEX9uGT88"
+      googleMapsApiKey="AIzaSyAoH2NcIJ1v1eItjCKEykIo3pVC7VutbpQ"
     >
       <GoogleMap
     mapContainerStyle={containerStyle}
