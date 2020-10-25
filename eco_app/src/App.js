@@ -13,9 +13,12 @@ function App(props) {
     <div className="App">
       <div className="NavBarContainer">
         <Navbar expand="lg" className="NavBar">
+        <Navbar.Brand href="/">
+        <strong className="BrandText">Plant Vs CO2</strong>
+      </Navbar.Brand>
           <Nav>
-            <Nav.Link href="/signup" >Sign up</Nav.Link>
-            <Nav.Link href="/login" >Login</Nav.Link>
+            <Nav.Link className="button"href="/signup" >Sign up</Nav.Link>
+            <Nav.Link className="button"href="/login" >Login</Nav.Link>
           </Nav>
         </Navbar>
       </div>
