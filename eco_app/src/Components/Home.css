@@ -1,6 +1,68 @@
-
+@import '~antd/dist/antd.dark.css';
 
 .page{
     background-color: #262E3A;
     height: 2000px;
+    display: flex;
+}
+
+.Map{
+    flex:50%;
+    margin:5px;
+    padding:5px;
+}
+
+.UserProfile{
+    flex:25%;
+    margin:5px;
+    padding:5px;
+}
+
+.Ranking{
+    flex:25%;
+    margin:5px;
+    padding:5px;
+}
+.text{
+    color:black;
+}
+.newsList{
+    height: 700px;
+    width:300px;
+    overflow-y: scroll;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: #151B24;
+    border: 3px;
+}
+
+.profileText{
+    color:white;
+    font-size:30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.plant{
+    padding:1px;
+    margin:3px;
+}
+.images-wrapper{
+    border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+.button1{
+    margin:5px;
+    text-align: end;
+    background-color: #262E3A;
+
+}
+.impact{
+    border-style: solid;
+	border-width: 1px;
+	border-color: white;
+    margin:5px;
+    padding:5px;
+    color:white;
+    background-color: #262E3A;
 }
